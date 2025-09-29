@@ -34,10 +34,8 @@ O código está pela metade, e você deverá dar continuidade obedecendo as regr
 - Lança exceção quando a capacidade é insuficiente
 - Mensagem: "A capacidade da suíte é menor que o número de hóspedes recebido"
 ## 🧪 Testes Realizados:
-1. 1.
-   Teste Normal : 2 hóspedes, 5 dias → 150 (2 × 5 × 30)
-2. 2.
-   Teste Desconto : 2 hóspedes, 10 dias → 270 (2 × 10 × 30 × 0.9)
-3. 3.
-   Teste Exceção : 3 hóspedes em suíte capacidade 2 → Exceção lançada
+1. 1. Teste Normal : 2 hóspedes, 5 dias → 150 (2 × 5 × 30)
+2. 2. Teste Desconto : 2 hóspedes, 10 dias → 270 (2 × 10 × 30 × 0.9)
+3. 3. Teste Exceção : 3 hóspedes em suíte capacidade 2 → Exceção lançada
+
 Todas as regras de negócio foram implementadas corretamente e o programa está funcionando conforme especificado no contexto. O sistema agora valida adequadamente a capacidade das suítes, calcula os valores com desconto quando aplicável, e retorna a quantidade correta de hóspedes.
